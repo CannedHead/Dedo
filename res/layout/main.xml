@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Splash$PlaceholderFragment" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back1opt" />
+
+    <Button
+        android:id="@+id/single1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/worldbut"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="24dp"
+        android:background="#FFFFFF"
+        android:fontFamily=""
+        android:freezesText="true"
+        android:height="60dp"
+        android:text="SINGLE GAME"
+        android:textColor="#58585B"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/worldbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="52dp"
+        android:background="#FFFFFF"
+        android:height="60dp"
+        android:text="WORLD TOURNAMENT"
+        android:textColor="#58585B"
+        android:textSize="20sp" />
+
+</RelativeLayout>

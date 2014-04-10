@@ -16,8 +16,6 @@ public class Main extends Activity {
 	    }
 	    return false;
 	}
-
-	
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {

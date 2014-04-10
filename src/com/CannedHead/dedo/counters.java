@@ -1,9 +1,5 @@
 package com.CannedHead.dedo;
 
-import android.os.CountDownTimer;
-
-
-
 public class counters {
 	
 	static String tiempo1 = "";
